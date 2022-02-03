@@ -1,0 +1,25 @@
+{
+  "name": "movieAPI",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/soundee10/movieQL",
+  "author": "<malice@korea.ac.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^2.0.15"
+  }
+}
